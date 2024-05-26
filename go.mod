@@ -1,4 +1,4 @@
-module github.com/amir-the-h/okex
+module github.com/bruce4591/okex
 
 go 1.17
 

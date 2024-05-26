@@ -1,7 +1,7 @@
 package account
 
 import (
-	"github.com/amir-the-h/okex"
+	"github.com/bruce4591/okex"
 )
 
 type (
@@ -77,6 +77,7 @@ type (
 		PosSide     okex.PositionSide   `json:"posSide"`
 		MgnMode     okex.MarginMode     `json:"mgnMode"`
 		InstType    okex.InstrumentType `json:"instType"`
+		RealizedPnl okex.RealizedPnl    `json:"realizedPnl"`
 		CTime       okex.JSONTime       `json:"cTime"`
 		UTime       okex.JSONTime       `json:"uTime"`
 	}

@@ -11,35 +11,35 @@ import (
 )
 
 type (
-	BaseURL              string
-	InstrumentType       string
-	MarginMode           string
-	ContractType         string
-	PositionType         string
-	PositionSide         string
-	ActualSide           string
-	TradeMode            string
-	CountAction          string
-	OrderSide            string
-	GreekType            string
-	BarSize              string
-	TradeSide            string
-	ChannelName          string
-	Operation            string
-	EventType            string
-	OrderType            string
-	AlgoOrderType        string
-	QuantityType         string
-	OrderFlowType        string
-	OrderState           string
-	ActionType           string
-	APIKeyAccess         string
-	OptionType           string
-	AliasType            string
-	InstrumentState      string
-	DeliveryExerciseType string
-	CandleStickWsBarSize string
-
+	BaseURL               string
+	InstrumentType        string
+	MarginMode            string
+	ContractType          string
+	PositionType          string
+	PositionSide          string
+	ActualSide            string
+	TradeMode             string
+	CountAction           string
+	OrderSide             string
+	GreekType             string
+	BarSize               string
+	TradeSide             string
+	ChannelName           string
+	Operation             string
+	EventType             string
+	OrderType             string
+	AlgoOrderType         string
+	QuantityType          string
+	OrderFlowType         string
+	OrderState            string
+	ActionType            string
+	APIKeyAccess          string
+	OptionType            string
+	AliasType             string
+	InstrumentState       string
+	DeliveryExerciseType  string
+	CandleStickWsBarSize  string
+	RealizedPnl           string
 	Destination           int
 	BillType              uint8
 	BillSubType           uint8
